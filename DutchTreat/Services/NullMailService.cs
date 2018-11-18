@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DutchTreat.services
 {
-    public class NullMailService
+    public class NullMailService : IMailService
     {
         public readonly ILogger<NullMailService> _logger;
 
@@ -19,7 +19,7 @@ namespace DutchTreat.services
         public void SendMessage(string to,string subject,string body)
         {
             //Log the message
-            //_logger.LogInformation();
+            _logger.LogInformation($"To:{to} Subject:{subject} Body:{body}");
         }
        
     }

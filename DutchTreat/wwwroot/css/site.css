@@ -1,4 +1,4 @@
-﻿menu li{
+﻿/*menu li{
     display:inline;
 }
 menu ul{
@@ -11,4 +11,4 @@ menu ul li::after {
 
 menu ul li:last-of-type::after{
     content:"";
-}
+}*/

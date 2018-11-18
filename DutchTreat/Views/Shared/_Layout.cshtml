@@ -1,28 +1,40 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="~/css/site.css" />
-    <meta charset="utf-8" />
     <title>Dutch Treat:@ViewBag.Title</title>
+    <link href="@Url.Content("~/node_modules/bootstrap/dist/css/bootstrap.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/node_modules/font-awesome/css/font-awesome.min.css")"  rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8" />
 </head>
 <body>
-    <header>
-        <h1>Welcome to Dutch Tree</h1>
-        <menu>
-            <ul>
-                <li><a asp-controller="App" asp-action="Index">Home</a></li>
-                <li><a asp-controller="App" asp-action="Contact">Contact Us</a></li>
-                <li><a asp-controller="App" asp-action="About">About Us</a></li>
-            </ul>
-        </menu>
+    <header class="container">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+            <h1 class="navbar-brand"><i class="fa fa-paint-brush"></i>Welcome to Dutch Tree</h1>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#theMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="theMenu" class="navbar-collapse collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" asp-controller="App" asp-action="Index">Home</a></li>
+                    <li class="nav-item"><a class="nav-link"asp-controller="App" asp-action="Contact">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="App" asp-action="About">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <section>
-        <h1>@ViewBag.Title</h1>
+    <section class="container">
+        <h2 class="text-center">@ViewBag.Title</h2>
         @RenderBody()
     </section>
-    <footer>Copyright 2018 Dutch Treat LLC</footer>
-    <script async src="~/node_modules/jquery/dist/jquery.min.js"></script>
-    <script defer src="~/js/index.js"></script>
+    <footer class="container">
+        <div class="text-center">
+            Copyright 2018 Dutch Treat LLC
+        </div> 
+    </footer>
+    <script type="text/javascript" src="@Url.Content("~/node_modules/jquery/dist/jquery.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/node_modules/bootstrap/dist/js/bootstrap.min.js")"></script>
+    <script type="text/javascript" src="~/js/index.js"></script>
     @RenderSection("scripts", false)
 </body>
 </html>

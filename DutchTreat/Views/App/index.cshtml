@@ -1,56 +1,59 @@
 ﻿@{
-    ViewBag.Title="Home Page";
+    ViewBag.Title = "Home Page";
 }
- 
-<div class="product-info">
-    <h3>Mug</h3>
-    <ul class="product-props">
-        <li>Price:$9.99</li>
-        <li>Artist:Rishabh</li>
-        <li>Title:</li>
-        <li>Description:Self-potrait</li>
-    </ul>
-    <button id="buyButton">Buy</button>
-</div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="product-info">
+            <h3>Mug</h3>
+            <ul class="product-props">
+                <li>Price:$9.99</li>
+                <li>Artist:Rishabh</li>
+                <li>Title:</li>
+                <li>Description:Self-potrait</li>
+            </ul>
+            <button id="buyButton" class="btn btn-success">Buy</button>
+        </div>
 
-<div id="thorm">
-    <form>
-        <label>Your Name:</label>
-        <br />
-        <input />
-        <br />
-        <label>Email:</label>
-        <br />
-        <input />
-        <br />
-        <label>Subject:</label>
-        <br />
-        <input />
-        <br />
-        <label>Message:</label>
-        <br />
-        <textarea rows="4"></textarea>
-        <br />
-        <input type="submit" value="Send Message" />
-    </form>
-</div>
+        <div id="thorm">
+            <form>
+                <label>Your Name:</label>
+                <br />
+                <input />
+                <br />
+                <label>Email:</label>
+                <br />
+                <input />
+                <br />
+                <label>Subject:</label>
+                <br />
+                <input />
+                <br />
+                <label>Message:</label>
+                <br />
+                <textarea rows="4"></textarea>
+                <br />
+                <input type="submit" value="Send Message" />
+            </form>
+        </div>
 
-<div>
-    <div id="login-toggle">Login</div>
-    <form id="popup-form">
-        <fieldset>
-            <div>
-                <label>Username:</label>
-                <input type="text" />
-            </div>
-            <div>
-                <label>Password:</label>
-                <input type="password" />
-            </div>
-            <div>
-                <input type="checkbox" />
-                <label>Remember Me?</label>
-            </div>
-        </fieldset>
-    </form>
+        <div>
+            <div id="login-toggle">Login</div>
+            <form id="popup-form">
+                <fieldset>
+                    <div>
+                        <label>Username:</label>
+                        <input type="text" />
+                    </div>
+                    <div>
+                        <label>Password:</label>
+                        <input type="password" />
+                    </div>
+                    <div>
+                        <input type="checkbox" />
+                        <label>Remember Me?</label>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
 </div>
