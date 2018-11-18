@@ -21,3 +21,9 @@ C:\Users\rishabhmalhotra\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp
 C:\Users\rishabhmalhotra\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.RazorTargetAssemblyInfo.cs
 C:\Users\rishabhmalhotra\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.Views.pdb
 C:\Users\rishabhmalhotra\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\DutchTreat.csproj.CopyComplete
+C:\Users\rishabhmalhotra\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\Razor\Views\App\About.g.cshtml.cs
+C:\Users\rishabhmalhotra\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\Razor\Views\App\Contact.g.cshtml.cs
+C:\Users\rishabhmalhotra\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\rishabhmalhotra\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\rishabhmalhotra\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs
+C:\Users\rishabhmalhotra\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.g.cshtml.cs

@@ -1,21 +1,28 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="~/css/site.css" />
     <meta charset="utf-8" />
     <title>Dutch Treat:@ViewBag.Title</title>
-
 </head>
 <body>
-    <header>Welcome to Dutch Tree</header>
+    <header>
+        <h1>Welcome to Dutch Tree</h1>
+        <menu>
+            <ul>
+                <li><a asp-controller="App" asp-action="Index">Home</a></li>
+                <li><a asp-controller="App" asp-action="Contact">Contact Us</a></li>
+                <li><a asp-controller="App" asp-action="About">About Us</a></li>
+            </ul>
+        </menu>
+    </header>
     <section>
         <h1>@ViewBag.Title</h1>
         @RenderBody()
     </section>
     <footer>Copyright 2018 Dutch Treat LLC</footer>
-
-    <script src="~/../node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="~/js/index.js"></script>
-
+    <script async src="~/node_modules/jquery/dist/jquery.min.js"></script>
+    <script defer src="~/js/index.js"></script>
+    @RenderSection("scripts", false)
 </body>
 </html>

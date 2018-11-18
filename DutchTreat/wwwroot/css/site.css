@@ -1,0 +1,14 @@
+﻿menu li{
+    display:inline;
+}
+menu ul{
+    list-style-type:none;
+}
+
+menu ul li::after {
+        content: ' |';
+}
+
+menu ul li:last-of-type::after{
+    content:"";
+}
