@@ -27,3 +27,4 @@ C:\Users\rishabhmalhotra\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp
 C:\Users\rishabhmalhotra\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
 C:\Users\rishabhmalhotra\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs
 C:\Users\rishabhmalhotra\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.g.cshtml.cs
+C:\Users\rishabhmalhotra\source\repos\DutchTreat\DutchTreat\obj\Debug\netcoreapp2.1\Razor\Views\App\Shop.g.cshtml.cs
